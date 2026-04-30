@@ -11,6 +11,10 @@ public struct ContentView: View {
                         PickerExamplesView()
                     }
 
+                    NavigationLink("Width Showcase") {
+                        WidthShowcaseView()
+                    }
+
                     NavigationLink("Menu Examples") {
                         MenuExamplesView()
                     }
